@@ -1,9 +1,10 @@
 katz_deli = []
 
+$number = 1
+
 def take_a_number
-  number = 1
-  puts "You are number #{number} in line."
-  number += 1
+  puts "You are number #{$number} in line."
+  $number += 1
 end
 
 
