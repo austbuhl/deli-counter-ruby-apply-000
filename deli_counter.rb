@@ -7,6 +7,7 @@ def take_a_number
   $number += 1
 end
 
+puts take_a_number
 
 
 
